@@ -1,0 +1,6 @@
+# Load the shared object
+useDynLib(KIRpong)
+
+# Export function names
+exportPattern("^[^\\.]")
+export(.onAttach, .Last.lib)
