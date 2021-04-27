@@ -1,0 +1,19 @@
+citHeader("To cite PONG in publications use:")
+
+citEntry(entry="Article",
+	title = "Pulling Out NK cell Genomics (PONG) – An allele imputation program for genes encoding the Killer Immunoglobulin receptor KIR3DL1/S1 alleles",
+	author = personList(as.person("Laura Ann Leaton"), as.person("Erica A. Harrison"),
+		as.person("Marte K. Viken"), as.person("Jonathan Shortt"),
+		as.person("Christopher R. Gignoux"), as.person("Benedicte A. Lie"),
+		as.person("Stephen Leslie"), as.person("Genelle F. Harrison"), as.person("Paul J. Norman")),
+	journal = {"BioRx"},
+	year = "2021",
+	doi = "10.1038/tpj.2013.18.",
+	url = "http://dx.doi.org/10.1038/tpj.2013.18",
+
+	textVersion =
+		paste("Leaton LA, Harrison EA, Viken MK, Shortt J, Gignoux CR, Lie BA, Leslie S, Harrison GF, Norman PJ.",
+			"Pulling Out NK cell Genomics (PONG) – An allele imputation program for genes encoding the Killer Immunoglobulin receptor KIR3DL1/S1 alleles.",
+			"BioRx.", "doi: 10.1038/tpj.2013.18.",
+			"http://dx.doi.org/10.1038/tpj.2013.18")
+)
